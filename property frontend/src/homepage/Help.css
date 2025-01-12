@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .help-container h1, .help-container h2, .help-container h3, .help-container h4 {
+    color: #2d2d2d;
+  }
+  
+  .help-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 40px;
+  }
+  
+  .help-container h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .help-container h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .help-container h4 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: normal;
+  }
+  
+  /* Section Styles */
+  .help-container section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-container section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .help-container section li {
+    margin: 8px 0;
+    font-size: 1rem;
+  }
+  
+  /* Components */
+  .help-container div > div {
+    margin-bottom: 30px;
+  }
+  
+  .help-container div > div:last-child {
+    margin-bottom: 0;
+  }
+  
+  .help-container ul li {
+    margin-left: 20px;
+  }
+  
+  .help-container ul li::before {
+    content: "• ";
+    color: #007bff; /* Bullet color */
+    margin-left: -15px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .help-container h1 {
+      font-size: 2rem;
+    }
+  
+    .help-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .help-container h3 {
+      font-size: 1.2rem;
+    }
+  
+    .help-container section {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    .help-container ul li {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .help-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .help-container section {
+      margin: 5px;
+      padding: 10px;
+    }
+  
+    .help-container ul li {
+      font-size: 0.8rem;
+    }
+  }
+  

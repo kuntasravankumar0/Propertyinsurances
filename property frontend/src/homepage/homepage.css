@@ -1,0 +1,462 @@
+/* Home.css */
+
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.continer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageramana {
+  width: 150px;
+  height: auto;
+}
+
+.imagecontact {
+  width: 40px;
+  height: 40px;
+}
+
+.inlinehomepage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-section p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.text-section h3 {
+  font-size: 24px;
+  color: #2a2a2a;
+}
+
+.family-image {
+  width: 450px;
+  height: 450px;
+  padding: 0px 0px 0px 150px;
+}
+
+.boxhomepage {
+  margin: 0px 100px 0px 0px;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  vertical-align: top;
+}
+
+.boxhomepage input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 40px;
+  color: #555;
+}
+
+.image-links {
+  display: flex;               /* Use Flexbox */
+    justify-content: center;     /* Align items horizontally (main axis) */
+    align-items: center;         /* Align items vertically (cross axis) */
+    padding: 20px 250px 0px 150px;  /* Padding (top-right-bottom-left) */
+    height: 30vh;      
+}
+
+.image-item {
+  text-align: center;
+  cursor: pointer;
+  padding: 20px 150px 0px 150px;
+  
+}
+
+.image-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  
+}
+
+.image-item p {
+  font-size: 16px;
+  color: #333;
+}
+
+.information-image {
+  width: 600px;
+  height: 650px;
+  margin: 0px 150px 40px 20px ;
+}
+
+.about-text {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  color: #333;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.ramanasoftimage {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+/* clock */
+/* App.css */
+.clock-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 0px;
+  margin: 40px 0px 0px 10px;
+}
+
+.clock {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;  
+  transform-origin: 50% 100%;
+  width: 3px;
+  background-color: rgb(230, 89, 89);
+  transform: rotate(0deg);
+  transition: transform 0.1s ease-in-out;
+}
+
+.hour-hand {
+  height: 25px;
+  background-color: rgb(0, 4, 255);
+}
+
+.minute-hand {
+  height: 35px;
+  background-color: rgb(0, 170, 255);
+}
+
+.second-hand {
+  height: 45px;
+  background-color: rgb(235, 235, 246);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lineinadmin
+{
+  display: inline;
+  
+}
+
+
+
+
+
+
+
+
+
+/* myaccount *//* MyAccount.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+  font-size: 1.5em;
+  color: #4A90E2;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.section p {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.subsection {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-left: 4px solid #4A90E2;
+  border-radius: 5px;
+}
+
+.subsection h4 {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.loading {
+  font-size: 1.1em;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section p span {
+  font-weight: bold;
+  color: #555;
+}
+
+.paymentDetails {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  margin-top: 20px;
+}
+
+.paymentDetails p {
+  font-size: 1.1em;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .heading {
+    font-size: 1.8em;
+  }
+
+  .section h3 {
+    font-size: 1.3em;
+  }
+}
+
+
+
+
+
+
+
+
+/* loading *//* HTML: <div class="loader"></div> */
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  background: linear-gradient(135deg,#0000 calc(50% - 0.5em),#000 0 calc(50% + 0.5em),#0000 0) right/300% 100%;
+  animation: l22 2s infinite;
+  margin: 350px 0px 0px 0px;
+}
+.loader::before {
+  content: "Loading...";
+  color: #0000;
+  padding: 0 5px;
+  background: inherit;
+  background-image: linear-gradient(135deg,#000 calc(50% - 0.5em),#fff 0 calc(50% + 0.5em),#000 0);
+  -webkit-background-clip:text;
+          background-clip:text;
+}
+
+@keyframes l22{
+  100%{background-position: left}
+}
+
+
+
+
+.myaccountimage {
+  width: 300px; /* Makes the image take up the full width of its container */
+  max-width: 400px; /* Limits the maximum width of the image */
+  height: auto; /* Keeps the aspect ratio intact */
+  display: block; /* Ensures that the image behaves like a block element */
+  margin-bottom: 20px; /* Adds some space below the image */
+}
+
+/* Style for the link with the class 'myaccountlink' */
+.myaccountlink {
+  display: inline-block; /* Makes the link behave like a block-level element */
+  font-size: 18px; /* Sets the font size */
+  color: #007bff; /* Sets the text color to blue */
+  text-decoration: none; /* Removes underline from the link */
+  padding: 10px 20px; /* Adds padding around the text */
+  border: 2px solid #007bff; /* Adds a border around the link */
+  border-radius: 5px; /* Rounds the corners of the border */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the link */
+.myaccountlink:hover {
+  background-color: #007bff; /* Changes the background to blue when hovered */
+  color: white; /* Changes the text color to white */
+}
+
+
+
+/* Adminpage */
+/* Style for the input field */
+.input-number {
+  width: 70%;                  /* Make the input take up full width of the container */
+  padding: 15px 15px;        
+  box-sizing: border-box;       /* Ensure padding doesn't affect the overall width */
+  border: 2px solid #ccc;       /* Add a light border */
+  border-radius: 5px;           /* Round the corners of the input */
+  font-size: 16px;              /* Set font size for readability */
+  outline: none;                /* Remove the default focus outline */
+  transition: all 0.3s ease;    /* Smooth transition on focus or hover */
+}
+
+/* Focus effect */
+.input-number:focus {
+  border-color: #24a0ed;        /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(36, 160, 237, 0.5);  /* Add a subtle shadow on focus */
+}
+
+/* Placeholder styling */
+.input-number::placeholder {
+  color: #888;                  /* Lighter color for placeholder */
+  font-style: italic;           /* Italicize the placeholder */
+}
+
+/* Styling for the form around the input */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+             /* Center the form horizontally */
+}
+
+/* Label styling */
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/* button */
+/* Style for the button */
+.button123{
+  background-color: #4CAF50; /* Green background */
+  border: none;              /* No border */
+  color: white;              /* White text */
+  padding: 15px 32px;        /* Padding around the text */
+  text-align: center;        /* Center text */
+  text-decoration: none;     /* Remove underline */
+  display: inline-block;     /* Display inline-block */
+  font-size: 16px;           /* Font size */
+  margin: 0px 0px 4px 360px;           /* Margin for spacing */
+  cursor: pointer;          /* Pointer cursor on hover */
+  border-radius: 8px;        /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+button123:hover {
+  background-color: #45a049; /* Darker green when hovering */
+}

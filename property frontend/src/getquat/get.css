@@ -1,0 +1,422 @@
+
+.continer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(157, 224, 236);
+}
+
+.imageramana
+{
+margin: 30px;
+  height: 60px;
+}
+
+.imagecontact
+{
+  margin: 30px;
+  height: 30px;
+}
+
+
+
+
+
+/* home page */
+/* Ensure the whole page takes up the full viewport height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Flexbox layout for the container to fill the height */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* fillpage */
+
+.margin1
+{
+  margin: 30px;
+}
+.inline{
+  display: inline-block;
+  margin: 30px 100px 30px 100px;
+vertical-align: top;
+}
+.input {
+  width: 200px;       /* Increase the width of the input */
+  padding: 10px;      /* Add padding inside the input */
+  font-size: 16px;    /* Make the text inside the input bigger */
+  border-radius: 5px; /* Optional: rounded corners */
+  border: 2px solid #ccc; /* Optional: add a border */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* getquotes */
+
+.inlineboxinget {
+  display: inline-block;
+  vertical-align: top; /* Align elements to the top */
+}
+
+.widthin
+{
+  margin: 20px 20px 2px 30px;
+  padding: 20px 20px 10px 40px;
+  
+}.boxall
+{
+  overflow:scroll;
+  border:2px solid black;
+}
+
+h3
+{
+color: blue ;
+}
+.bordertorightbox
+{
+  border:2px solid black;
+  padding: 30px 30px 30px  30px ;
+}
+
+.boxright
+{
+  padding: 3px 10px 30px 10px;
+  
+  border:2px solid black;
+}
+
+
+.color{
+  color: blue;
+  font-size: 20px;
+}
+.arrow
+{
+  width: 30px;
+padding: 0px 0px 0px 10px;
+cursor: pointer;
+}
+
+.width
+{
+padding: 0px 30px 10px 30px ;
+}
+.color1
+{
+  color: blue;
+size: 40px;
+}
+
+h3
+{
+  color: #5a9fdc;
+}
+
+.animated {
+  width: 90px;
+  height: 30px;
+  background-color: #5a9fdc;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.7s ease;
+  cursor: pointer;
+}
+
+.animated:hover {
+  background-color: blue;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* popup container */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Overlay effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure popup is above other content */
+  backdrop-filter: blur(0px); /* No blur initially */
+  transition: backdrop-filter 0.3s ease-in-out; /* Smooth transition for blur effect */
+}
+
+.popup-content {
+  border-radius: 20px;
+padding: 25px;
+  background: #72b0e6;
+  
+ 
+
+}
+
+.popup-content h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.popup-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+/* Input fields styling */
+.popup-content form input[type="text"],
+.popup-content form input[type="email"],
+.popup-content form input[type="tel"],
+.popup-content form input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #2a0d0d;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.popup-content form input[type="text"]:focus,
+.popup-content form input[type="email"]:focus,
+.popup-content form input[type="tel"]:focus,
+.popup-content form input[type="number"]:focus {
+  border-color: #071a08;
+  outline: none;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.popup-content form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.popup-content form button:hover {
+  background-color: #45a049;
+}
+
+/* Hover effect for buttons */
+.popup-content form button:active {
+  transform: scale(0.98); /* Slight shrink when button is clicked */
+}
+
+/* Close button */
+.popup-content .close-btn {
+  background-color: #f44336;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.popup-content .close-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Button to already signed up */
+.popup-content .already-signed-up-btn {
+  text-align: center;
+  font-size: 14px;
+  color: #4CAF50;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.popup-content .already-signed-up-btn:hover {
+  color: #45a049;
+}
+
+/* Styling for table when showing customer data */
+.popup-content table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.popup-content table th,
+.popup-content table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.popup-content table th {
+  background-color: #f4f4f4;
+}
+
+.popup-content table tr:hover {
+  background-color: #f9f9f9;
+}
+
+
+
+
+/* pay */
+
+
+
+/* Main Content Section */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px; /* Gap between the boxes */
+  margin-top: 30px;
+}
+
+/* Box Container for Payment Details and Payment Action */
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Styling for each box */
+.box {
+  background-color: white;
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+/* Payment Details Box */
+.payment-details h3 {
+  font-size: 30px;
+}
+
+.payment-details p {
+  font-size: 16px;
+}
+
+/* Payment Action Box */
+.payment-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button Styling */
+.pay-button, .submit-button, .home-button {
+  background-color: #20c997;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.pay-button:hover, .submit-button:hover, .home-button:hover {
+  background-color: #17a589;
+}
+
+/* Payment Success Section */
+.payment-success {
+  background-color: #d4edda;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.payment-success h2 {
+  color: #155724;
+}
+
+.payment-success p {
+  color: #155724;
+}
